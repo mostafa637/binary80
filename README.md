@@ -300,7 +300,12 @@ void binary80_print_bits(binary80_t x);   // طباعة البتات
 binary80_t x = binary80_from_double(10.0);
 binary80_t y = binary80_from_double(3.0);
 binary80_t result = binary80_div(x, y);
-binary80_print(result);  // 3.3333333333333335
+binary80_print(result);  // 3.3333333333333330
+كون الناتج
+3.3333333333333330
+بدلاً من
+3.3333333333333335
+فهو بسبب عدم وجود تقريب وقد تم ازالتة لتبسيط الكود لكونة كود تعليمى
 ```
 
 ### مثال 2: معالجة القيم الخاصة
