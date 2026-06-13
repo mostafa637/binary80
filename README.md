@@ -371,7 +371,7 @@ Value = (-1)^sign × 2^(exponent - 16383) × (significand / 2^63)
 
 ### استخدام كمكتبة ثابتة
 
-```makefile
+```
 # في Makefile الخاص بك
 LDFLAGS += -L/path/to/binary80 -lbinary80 -lm
 CFLAGS += -I/path/to/binary80
@@ -379,7 +379,7 @@ CFLAGS += -I/path/to/binary80
 
 ### استخدام مباشر
 
-```makefile
+```
 # نسخ الملفات إلى مشروعك
 SOURCES += binary80.c
 HEADERS += binary80.h
