@@ -1,68 +1,8 @@
 # Binary80 - Extended Precision Floating Point Library
 
-## .gitignore
-
-```gitignore
-# Compiled Object files
-*.o
-*.obj
-*.ko
-*.elf
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.a
-*.lib
-*.la
-*.lo
-
-# Executables
-*.exe
-*.out
-*.app
-test_binary80
-binary80_test
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Build directories
-build/
-dist/
-bin/
-obj/
-
-# Dependency directories
-.deps/
-
-# Core dumps
-core
-core.*
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-```
-
 <div dir="rtl">
 
-مكتبة C لتنفيذ الحسابات بدقة عالية باستخدام صيغة Binary80 (80-bit extended precision).
+هى مكتبة C لتنفيذ الحسابات بدقة عالية باستخدام صيغة Binary80 (80-bit extended precision).
 
 </div>
 
